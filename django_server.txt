@@ -1,0 +1,10 @@
+theia@theia-u221030401:/home/project/xrwvm-fullst
+ack_developer_capstone/server$ python3 manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 21, 2026 - 10:26:15
+Django version 5.2.15, using settings 'djangoproj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
