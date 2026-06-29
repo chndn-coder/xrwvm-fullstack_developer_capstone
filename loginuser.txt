@@ -1,0 +1,6 @@
+theia@theia-u221030401:/home/project/xrwvm-fullstac
+k_developer_capstone/server/frontend$ curl -X POST "https://u221030401-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/djangoapp/login" \
+  -H "Content-Type: application/json" \
+  -d '{"userName": "u221030401", "password": "hello
+123"}'
+{"userName": "u221030401", "status": "Authenticated"}
