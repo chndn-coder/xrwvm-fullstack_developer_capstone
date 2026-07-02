@@ -1,0 +1,4 @@
+theia@theiadocker-u221030401:/home/project/xrwvm-fullsta
+ck_developer_capstone/server/database$ curl -X GET "http://localhost:3030/fetchDealer/15"
+[{"_id":"6a45fcf735b17076e1e85cc9","id":15,"city":"San Antonio","state":"Texas","address":"5057 Pankratz Hill","zip":"78225","lat":"29.3875","long":"-98.5245","short_name":"Tempsoft","full_name":"Tempsoft Car Dealership","__v":0}]theia@theiadocker-u221030401:/home/project/xrwvm-fullsta
+ck_developer_capstone/server/database$ 
