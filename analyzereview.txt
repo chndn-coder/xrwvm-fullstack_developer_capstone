@@ -1,0 +1,2 @@
+ theia@theiadocker-u221030401:/hcurl -X GET "https://sentianalyzer.2bwcxpef03u5.us-south.codeengine.appdomain.cloud/analyze/Fantastic%20services"
+{"sentiment": "positive"}
