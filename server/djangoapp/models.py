@@ -44,8 +44,8 @@ class CarModel(models.Model):
     validators=[
         MinValueValidator(2015),
         MaxValueValidator(2023)
-    ]
+        ]
     )
-
     def __str__(self):
         return f"{self.car_make.name} {self.name}"   
+        
