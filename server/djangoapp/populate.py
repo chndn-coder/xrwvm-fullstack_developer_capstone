@@ -44,3 +44,4 @@ def initiate():
             type=data['type'],
             year=data['year']
         )
+        

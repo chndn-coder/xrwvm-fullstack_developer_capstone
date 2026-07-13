@@ -39,11 +39,7 @@ def get_request(endpoint, **kwargs):
 # Add code for retrieving sentiments
 # Add code for retrieving sentiments
 def analyze_review_sentiments(text):
-    request_url = (
-        sentiment_analyzer_url
-        + "analyze/"
-        + text
-    )
+    request_url = sentiment_analyzer_url + "analyze/" + text
 
     try:
         response = requests.get(request_url)
