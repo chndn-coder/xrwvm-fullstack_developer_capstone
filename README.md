@@ -84,7 +84,7 @@ Express APIs         Sentiment Service
 ### Clone Repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/chndn-coder
 cd xrwvm-fullstack_developer_capstone
 ```
 
@@ -147,16 +147,16 @@ kubectl port-forward deployment.apps/dealership 8000:8000
 ## Screenshots
 
 ### Landing Page
-(Add Screenshot Here)
+
 
 ### Logged In User
-(Add Screenshot Here)
+
 
 ### Dealer Details
-(Add Screenshot Here)
+
 
 ### Add Review with Sentiment
-(Add Screenshot Here)
+
 
 ---
 
