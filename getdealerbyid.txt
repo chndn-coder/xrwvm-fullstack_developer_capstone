@@ -1,0 +1,4 @@
+theia@theiadocker-u221030401:/home/project/xrwvm-fullstack_de
+veloper_capstone/server$[00m$ curl -X GET "https://u221030401-3030.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/fetchDealer/15"
+[{"_id":"6a5b1bd31c8315a4e3234ae2","id":15,"city":"San Antonio","state":"Texas","address":"5057 Pankratz Hill","zip":"78225","lat":"29.3875","long":"-98.5245","short_name":"Tempsoft","full_name":"Tempsoft Car Dealership","__v":0}]theia@theiadocker-u221030401:/home/project/xrwvm-fullstack_de
+veloper_capstone/server$ 
