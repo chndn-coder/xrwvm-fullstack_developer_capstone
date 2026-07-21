@@ -45,40 +45,118 @@ let checkSession = ()=>{
  }
 </script>
 </head>
-<body onload="checkSession()">
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+<body onload="checkSession()" style="background-color:#f8fafc;">
+
+<!-- Modern Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark"
+     style="background:linear-gradient(90deg,#1e293b,#334155);
+            min-height:80px;
+            box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+
   <div class="container-fluid">
-    <h2 style="padding-right: 5%;">Dealerships</h2>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- Bigger logo/title -->
+    <h2 style="padding-right:5%;
+               font-weight:bold;
+               color:white;">
+       Dealerships
+    </h2>
+
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarText">
+
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
         <li class="nav-item">
-          <a class="nav-link active" style="font-size: larger;" aria-current="page" href="#">Home</a>
+          <a class="nav-link active"
+             style="font-size:20px;"
+             href="#">
+             Home
+          </a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          <a class="nav-link"
+             style="font-size:20px;"
+             href="/about">
+             About Us
+          </a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+          <a class="nav-link"
+             style="font-size:20px;"
+             href="/contact">
+             Contact Us
+          </a>
         </li>
+
       </ul>
+
       <span class="navbar-text">
-        <div class="loginlink" id="loginlogout">
-        </div>
-        </span>
+        <div class="loginlink" id="loginlogout"></div>
+      </span>
+
     </div>
   </div>
 </nav>
-<div style="display: flex;flex-direction: column;">
-<div class="card" style="width: 50%;margin-top: 50px;align-self: center;">
-  <img src="static/car_dealership.jpg" class="card-img-top" alt="...">
-  <div class="banner">
-    <h5>Welcome to our Dealerships!</h5>
-    <a href="/dealers" class="btn" style="background-color: aqua;margin:10px">View Dealerships</a>
+
+
+<!-- Hero Section -->
+<div class="container">
+
+  <div class="card shadow-lg border-0"
+       style="max-width:950px;
+              margin:60px auto;
+              border-radius:25px;
+              overflow:hidden;">
+
+      <!-- Bigger image -->
+      <img src="static/car_dealership.jpg"
+           class="card-img-top"
+           style="height:500px;
+                  object-fit:cover;"
+           alt="Dealership">
+
+      <div class="card-body text-center"
+           style="background:white;">
+
+          <!-- Main heading -->
+          <h2 style="font-weight:bold;
+                     color:#1e293b;">
+              Welcome to our Dealerships!
+          </h2>
+
+          <!-- Small description -->
+          <p style="font-size:18px;
+                    color:#64748b;
+                    margin-top:15px;">
+              Explore dealerships across different states,
+              read customer reviews, and share your own experiences.
+          </p>
+
+          <!-- Better button -->
+          <a href="/dealers"
+             class="btn btn-lg"
+             style="background-color:#2563eb;
+                    color:white;
+                    border-radius:12px;
+                    padding:12px 30px;
+                    margin-top:15px;">
+              View Dealerships →
+          </a>
+
+      </div>
   </div>
+
 </div>
-</div>
+
 </body>
+
 </html>
